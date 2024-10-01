@@ -1,0 +1,18 @@
+body {background-color:#FFCCFF ;}
+h1 {font-size: 50px}
+h1 {font-style: italic;;}
+h1  {margin-left: 90px; }
+img {width: 500px; height: auto;}
+img {margin-left: 300px;}
+
+iframe {margin-left: 300px}
+h2 {font-size: 30px}
+h3 {font-size: 30px}
+h2 {text-decoration: underline;text-decoration-color: fuchsia;}
+h3 {text-decoration: underline;text-decoration-color: fuchsia;text-underline-offset: 3px;text-decoration-thickness: 2px;}
+h3 {margin-left: 250px}
+h3 {font-size: 30px}
+h4 {margin-left: 250px}
+h4 {font-size: 30px}
+h5 {margin-left: 250px}
+h5 {font-size: 30px}
