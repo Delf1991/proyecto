@@ -7,3 +7,79 @@ li{color: pink ;text-align: center;margin-left: auto;  margin-right: 0;}
  br
  h2 {color: pink ;text-align: center;margin-left: auto;  margin-right: 0;}
 img {width: 450px; height: auto;}
+
+h5 {width: ="100"
+    height ="150"}
+
+ .header{display: flex;
+ justify-content: center;}
+
+ .logo {display: flex;
+ justify-content: center;}
+
+ .logo {
+    width: 150px;
+    height: auto;}
+    .title {width: 40px}
+
+
+.h1 { display: flex;
+      justify-content: center;}
+
+.foto {display: flex;
+justify-content: center;}
+
+
+
+header {
+    display: flex;
+    justify-content: : center;
+    padding: 50px;
+    background-color: #f8f8f8; }
+
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;  }
+
+    .a {display: flex;
+    justify-content: flex-end;}
+
+
+    footer {flex-direction: column-reverse;flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 25px;
+        background-color: #f8f8f8;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 250px;
+        margin: 10px;
+    }
+
+    .map-container {
+        height: 200px;         }
+
+
+        header, footer {
+            display: flex;              /* Activa Flexbox */
+            flex-wrap: wrap;           /* Permite que los elementos se envuelvan */
+            justify-content: space-between; /* Espacia los elementos */
+            padding: 20px;             /* Espaciado interno */
+            background-color: #f8f8f8; /* Color de fondo */
+        }
+
+        .header-section, .footer-section {
+            flex: 1;                   /* Cada sección ocupa el mismo espacio */
+            min-width: 150px;         /* Ancho mínimo para cada sección */
+            margin: 10px;             /* Margen entre secciones */
+        }
+
+        .map-container {
+            height: 300px;            /* Altura del contenedor del mapa */
+        }
