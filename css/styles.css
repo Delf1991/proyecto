@@ -1,85 +1,131 @@
-body {background-color: #ffedf0;font-family: Arial, sans-serif; background-image: url(../imagenes/fondomarron.jpg);}
+body {
+    background-color: #ffedf0;
+    font-family: Arial, sans-serif;
+    background-image: url(../imagenes/fondomarron.jpg);
+    color: pink;
+    text-align: center;
+    margin: 50px;
+    padding: 60px;
+}
 
-body{color: pink ;text-align: center;margin-left: auto;  margin-right: 0; padding:60px; margin: 50px;}
-li{color: pink ;text-align: center;margin-left: auto;  margin-right: 0;}
+h1 {
+    color: #259a9a;
+    margin: 20px 0;
+}
 
- h1 {color: #259a9a ;text-align: center;margin-left: auto;  margin-right: 0;}
- br
- h2 {color: pink ;text-align: center;margin-left: auto;  margin-right: 0;}
-img {width: 450px; height: auto;}
+h2 {
+    color: pink;
+    margin: 20px 0;
+}
 
-h5 {width: ="100"
-    height ="150"}
+h5 {
+    color: #259a9a; /* Agregado para mantener consistencia */
+}
 
- .header{display: flex;
- justify-content: center;}
+li {
+    color: pink;
+    margin: 10px 0;
+}
 
- .logo {display: flex;
- justify-content: center;}
-
- .logo {
-    width: 150px;
-    height: auto;}
-    .title {width: 40px}
-
-
-.h1 { display: flex;
-      justify-content: center;}
-
-.foto {display: flex;
-justify-content: center;}
-
-
+img {
+    width: 450px;
+    height: auto;
+}
 
 header {
     display: flex;
-    justify-content: : center;
+    justify-content: center;
     padding: 50px;
-    background-color: #f8f8f8; }
-
+    background-color: #f8f8f8;
+}
 
 .logo {
     max-width: 150px;
     height: auto;
-    margin-right: 20px;  }
+    margin-right: 20px;
+}
 
-    .a {display: flex;
-    justify-content: flex-end;}
+.foto {
+    display: flex;
+    justify-content: center;
+}
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #f8f8f8;
+}
 
-    footer {flex-direction: column-reverse;flex-direction: row;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        padding: 25px;
-        background-color: #f8f8f8;
-    }
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
 
-    .footer-section {
-        flex: 1;
-        min-width: 250px;
-        margin: 10px;
-    }
+.map-container {
+    height: 300px; /* Altura del contenedor del mapa */
+}
 
-    .map-container {
-        height: 200px;         }
+.contact-container {
+    display: flex; /* Usamos flexbox para alinear el mapa y las redes sociales */
+    justify-content: space-between; /* Espacio entre mapa y redes */
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);}
 
+.contact-container h3,
+.contact-container h4 {
+    color: #259a9a;
+    margin-bottom: 10px;}
 
-        header, footer {
-            display: flex;              /* Activa Flexbox */
-            flex-wrap: wrap;           /* Permite que los elementos se envuelvan */
-            justify-content: space-between; /* Espacia los elementos */
-            padding: 20px;             /* Espaciado interno */
-            background-color: #f8f8f8; /* Color de fondo */
-        }
+.contact-container p {
+    color: pink;
+    margin: 5px 0;}
 
-        .header-section, .footer-section {
-            flex: 1;                   /* Cada sección ocupa el mismo espacio */
-            min-width: 150px;         /* Ancho mínimo para cada sección */
-            margin: 10px;             /* Margen entre secciones */
-        }
+.map-container {
+    flex: 1;
+    margin-right: 20px; }
 
-        .map-container {
-            height: 300px;            /* Altura del contenedor del mapa */
-        }
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+
+.social-media a {  margin: 5px 0;}
+
+a:link {color: green;}
+a:visited {color: blue}
+a:active{color: pink; background: white}
+a:hover {background-color: fuchsia;
+font-size: 25px}
+
+a {
+    color: #259a9a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+    text-decoration: underline; }
+
+    .logo {
+    width: 15vw; /* Ancho relativo al viewport */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+header, footer {
+    padding: 5%; /* Padding relativo al contenedor */
+}
+
+.container {
+    width: 80vw; /* Ancho relativo al viewport */
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centrado */}
